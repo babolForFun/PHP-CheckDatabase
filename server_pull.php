@@ -11,8 +11,8 @@
     */
     public function pulling(){
 
-		$dbhost 		 = HOST_NAME;
-		$dbname 		 = DB_NAME;
+		$dbhost 	 = HOST_NAME;
+		$dbname 	 = DB_NAME;
 		$dbAdminName 	 = SYS_ADMIN;
 		$dbAdminPassword = SYS_PASSWORD;
 
