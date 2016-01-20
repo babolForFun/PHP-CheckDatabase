@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Pulling db</title>
+		<meta name="description" content="Check for database changes">
+		<meta name="author" content="babolForFun">
+		<script src="./client_scripts.js"></script>	
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			var refreshIntervalId = window.setInterval(pullingdb, 8000);
+			var url = 'http://yourHostName/server_pull.php';
+			var lastmod = "";
+		</script>
+		<div id="update"></div>	
+	</body>
+</html>
